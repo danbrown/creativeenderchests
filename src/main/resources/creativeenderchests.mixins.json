@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.dannbrown.creativeenderchests.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "creativeenderchests.mixins.refmap.json",
+  "mixins": [
+    "EnderChestBlockMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
